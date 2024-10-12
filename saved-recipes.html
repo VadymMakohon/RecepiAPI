@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Saved Recipes</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <div class="nav">
+        <div>
+          <h2>Dashboard <span id="dot">.</span></h2>
+        </div>
+        <div>
+          <input type="color" value="#20b2aa" id="colorWell">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- WRAPPER FOR CSS GRID -->
+  <div class="wrapper">
+
+    <!-- NAVIGATION MENU -->
+    <div class="menu">
+      <div class="user">
+        <i class="fas fa-user"></i>
+        <p id="myname">Vadym Makohon</p>
+      </div>
+      <a href="index.html">
+        <li><i class="fas fa-receipt" id="receipt" style="margin-right: 10px;"></i>My recipes</li>
+      </a>
+      <a href="add-recipe.html">
+        <li><i class="fas fa-plus-square" id="square" style="margin-right: 10px;"></i>Add recipe</li>
+      </a>
+      <a href="saved-recipes.html">
+        <li id="current"><i class="fas fa-save" id="save" style="margin-right: 10px;"></i>Saved recipes</li>
+      </a>
+      <a href="search-recipes.html">
+        <li><i class="fas fa-search" id="search" style="margin-right: 10px;"></i>Search recipes</li>
+      </a>
+    </div>
+
+    <!-- RESPONSIVE NAVIGATION MENU ACTIVATES AT 768px -->
+    <div class="responsive-menu">
+      <div class="user">
+        <i class="fas fa-user"></i>
+      </div>
+      <a href="index.html">
+        <li><i class="fas fa-receipt"></i></li>
+      </a>
+      <a href="add-recipe.html">
+        <li><i class="fas fa-plus-square"></i></li>
+      </a>
+      <a href="saved-recipes.html">
+        <li class="current"><i class="fas fa-save"></i></li>
+      </a>
+      <a href="search-recipes.html">
+        <li><i class="fas fa-search"></i></li>
+      </a>
+    </div>
+
+    <!-- ALLOW USER TO VIEW SAVED RECIPES -->
+    <div class="display">
+      <div class="search">
+        <h2>Saved recipes</h2>
+        <br>
+      </div>
+      <div class="saved-recipe-cards"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

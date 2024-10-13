@@ -3,6 +3,7 @@
 A Simple yet cool Recipe API built using HTML, CSS, and JavaScript. This project allows users to view various recipes, including detailed descriptions, ingredients, and instructions. It also supports a "View more" feature that stores selected recipe details in session storage for later viewing.
 
 ## Preview
+![preview](https://github.com/user-attachments/assets/cbb3eaad-a6db-4561-9996-75e3cdfa5e51)
 
 ## Features
 

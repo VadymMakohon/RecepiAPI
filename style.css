@@ -11,6 +11,7 @@ body{
   color: white;
   background-color: #1a1a1a;
   font-family: 'Courgette', cursive;
+  font-size: 18px;
 }
 
 .nav{
@@ -19,7 +20,7 @@ body{
   align-items: center;
   height: 70px;
   padding: 0 20px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .wrapper{
@@ -32,6 +33,8 @@ body{
 .menu a , .responsive-menu a{
   color: white;
   text-decoration: none;
+  background-color: #222;
+  border-right: 1px solid #444;
 }
 
 .menu li, .responsive-menu li{
@@ -58,7 +61,7 @@ body{
 
 .user i{
   padding-bottom: 15px;
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: white;
 }
 
@@ -66,14 +69,15 @@ body{
 
 .display{ 
   padding: 20px;
-  background-color: black;
+  background-color: #111;
 }
 
 .search h2{
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .search input{
+  font-size: 1rem;
   width: 100%;
   padding: 8px;
   border: none;
@@ -99,8 +103,9 @@ body{
   width: 300px;
   height: auto;
   transition: 1s ease;
-  background-color: #1a1a1a;
+  background-color: #333;
   padding-bottom: 10px;
+  border: 1px solid #444;
 }
 
 .big-card{width: 700px;}
@@ -302,11 +307,11 @@ body{
   }
 
   .user i{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
   }
 
-  .display i{ font-size: 1.5rem;}
+  .display i{ font-size: 1.7rem;}
 
    .card, .box, #recipe-img,#name, #description, #ingredients, #instructions{
    width: 100%;
@@ -316,7 +321,7 @@ body{
 @media(max-width:480px){
   .big-image{ height: 200px;}
 
-  .save-btn i, .del-btn i{ font-size: 1.5rem;}
+  .save-btn i, .del-btn i{ font-size: 1.7rem;}
 
-  .nav, .search h2, .other p, h1{ font-size: 1rem;}
+  .nav, .search h2, .other p, h1{ font-size: 1.2rem;}
 }
